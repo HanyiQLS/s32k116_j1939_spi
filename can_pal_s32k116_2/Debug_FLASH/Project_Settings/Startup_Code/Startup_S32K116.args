@@ -1,0 +1,17 @@
+-c
+-I"E:/Reagan/workspace/workspaceS32DS.ARM.2018.R1/can_pal_s32k116_2/can_pal_s32k116_2/Sources"
+-I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K116"
+-I"E:/Reagan/workspace/workspaceS32DS.ARM.2018.R1/can_pal_s32k116_2/can_pal_s32k116_2/Generated_Code"
+-I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/common"
+-I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K1xx_RTM_3.0.0/platform/devices"
+-I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K116/include"
+-I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K116/startup"
+-I"C:/NXP/S32DS_ARM_v2018.R1/S32DS/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-O1
+-g3
+-mcpu=cortex-m0plus
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="C:/NXP/S32DS_ARM_v2018.R1/Cross_Tools/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
